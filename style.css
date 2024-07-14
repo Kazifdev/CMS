@@ -1,0 +1,149 @@
+
+/*login_page.html style code*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.landing_page {
+    height: 900px;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+}
+
+#sign_in {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-box {
+    height: 420px;
+    width: 380px;
+    background-color: white;
+    position: relative;
+    margin: 12% auto;
+    padding: 5px;
+    overflow: hidden;
+}
+.button_box {
+    width: 250px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 20px;
+}
+.toggle_btn {
+    color: black;
+    padding: 10px 37px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background: linear-gradient(to right, #2f92e4,#467bac);
+    border-radius: 20px;
+    transition: .5s;
+
+}
+
+.input_group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input_field {
+    width: 100%;
+    padding: 8px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit_btn {
+    color: white;
+    width: 40%;
+    padding:10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    background-color: black;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+.submit_btn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+
+    
+
+}
+
+.forget_password {
+    color: blue;
+    width: 40%;
+    padding:5px 10px;
+    cursor: pointer;
+    margin: 30px 70px;
+
+}
+
+
+
+
+
+
+#login{
+    left: 50px;
+}
+
+
+#register{
+    left: 450px;
+}
+
+
+/*Navbar code */
+
+.UDW_btn {
+    padding: 5px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 300px;
+}
+
+.UDW_btn:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.459);
+    border: 2px solid black;
+}
+
+.navbar-nav {
+    margin-left: 700px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    font-size: 25px;
+}

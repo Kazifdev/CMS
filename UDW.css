@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    margin-left: 700px;
+}
+
+.UDW_btn {
+    padding: 5px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 300px;
+}
+
+.UDW_btn:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.459);
+    border: 2px solid black;
+}
+
+.UDW_ladning_page {
+    height: 100vh;
+    background-image: url(img/landingpage.bg.png);
+    background-position: top;
+    background-attachment: fixed fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.intro h1 {
+    background-color: rgba(93, 89, 89, 0.719);
+    color: white;
+    width: 630px;
+    font-size: 60px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    
+}

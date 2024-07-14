@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    margin-right: 180px;
+}
+
+
+
+.dropdown-menu {
+    background-color:#343a40;
+    margin-top:7px;
+    margin-left: 5px;
+    border-radius: 0px;
+}
+
+.dropdown-item {
+    color: rgb(255, 255, 255);
+}
+
+
+.btn {
+    padding: 5px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/*Home page*/
+
+.landing_page {
+    background-image: url(img/landingpage.bg.png);
+    background-position: top;
+    background-attachment: fixed fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.intro h1 {
+    background-color: rgba(93, 89, 89, 0.719);
+    color: white;
+    width: 600px;
+    font-size: 60px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+
+/*unit details page*/
+
+.container {
+    margin-top: 100px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+
+.unit-into-text {
+    margin-top: 50px;
+}
+
+.unit-into-text h4 {
+    padding-bottom: 10px;
+}
+
+.unit-into-text h1 {
+    padding-bottom: 10px;
+}
+
+.summary-table {
+    margin-bottom: 30px;
+}
+
+.summary-table h4 {
+    margin-bottom: 10px;
+
+}
+
+.brief-des p {
+    line-height: 32px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.availability-table {
+    margin-bottom: 30px;
+}
+.availability-table h4 {
+    margin-bottom: 20px;
+}
+
+.link-to-enrolment{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.enrol-btn {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.enrol-btn:hover {
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+}
+
+/*Unit Enrolment Page*/
+
+.enrolment-page {
+    height: 150vh;
+}
+
+.units{
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.enrol-table tr th {
+    padding: 5px 30px;
+
+}
+.enrol-table {
+    margin: 20px;
+}
+.enrol-table td {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.enrol-now {
+    background-color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.enrol-now:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+/*Mastepage for academic staff
+
+.academic-staff {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Mastepage for Unit details
+
+.Masterpage-units {
+    height: 100vh;
+}
+*/
+
+
+.unit-offer{
+    margin-top: 20px;
+}
+
+.call {
+    padding: 5px 10px;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+/*Time table*/
+
+
+
+.time-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+
+.time-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#btn-time {
+    margin-left: 30px;
+}
+
+
+/*Tutorial Allocation page*/
+
+.tutorial-allocation {
+    height: 200vh;
+}
+
+.tut-time 
+
+
+.tut-time  tr th {
+    padding: 7px 30px;
+}
+
+.tut-time  td {
+    padding: 3px 30px;
+}
+
+
+.allo-btn {
+    margin: 7px 15px;
+    padding: 2px 7px;
+    background-color: #343a40;
+    border:none;
+    color: white;
+    border-radius: 3px;
+}
+
+.allo-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.session_user{
+    border-radius: 10px;
+    padding: 3px 25px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+
+
+/*unit_update page*/
+
+.update_form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
